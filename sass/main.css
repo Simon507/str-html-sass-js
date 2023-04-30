@@ -56,16 +56,49 @@ a {
   position: relative;
 }
 
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 .main-header {
   display: flex;
   justify-content: center;
-  gap: 180px;
+  gap: 10%;
+  width: 100%;
+}
+
+.logo1 {
+  display: block;
+  min-width: 185px;
+  min-height: 55px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  gap: 5%;
 }
 
 .nav-list__link {
@@ -121,6 +154,7 @@ a {
   margin-top: 52px;
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   gap: 10px;
 }
 
