@@ -4,4 +4,11 @@
   border-bottom-width: 1px;
   border-image: linear-gradient(to right, #ffffff, #0a4296, #0a4296, #ffffff) 47% 0%;
   padding: 100px 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.carousel {
+  margin-top: 30px;
+  align-self: center;
 }
