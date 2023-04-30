@@ -1,0 +1,29 @@
+.statistics {
+  margin-top: 100px;
+  color: #ffffff;
+  background: linear-gradient(94.96deg, rgba(3, 32, 58, 0.9) 4.01%, rgba(10, 66, 150, 0.9) 111.35%);
+}
+
+.statistics-list {
+  display: flex;
+  gap: 20px;
+  padding: 100px 120px;
+  justify-content: center;
+}
+
+.statistics-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0 47px;
+  text-align: center;
+}
+.statistics-item-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 143%;
+}
+.statistics-item-txt {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}

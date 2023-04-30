@@ -1,0 +1,14 @@
+.services {
+  background: rgba(3, 32, 58, 0.03);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(to right, #ffffff, #0a4296, #0a4296, #ffffff) 47% 0%;
+  padding: 100px 120px;
+}
+.services-list {
+  display: flex;
+  gap: 20px;
+}
+.services-item {
+  margin-top: 50px;
+}

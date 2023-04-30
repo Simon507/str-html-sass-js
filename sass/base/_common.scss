@@ -10,8 +10,10 @@ html {
 
 body {
   margin: 0;
-  // font-family: $fontPrimary;
-  font-family: Roboto, sans-serif;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Montserrat, sans-serif;
   color: var(--main-text-color);
 }
 
@@ -32,9 +34,17 @@ img {
 }
 
 ul,
-link,
+li,
 a {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #2b2a2a;
 }

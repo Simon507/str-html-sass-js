@@ -1,0 +1,29 @@
+.aboutUs {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(to right, #ffffff, #0a4296, #0a4296, #ffffff) 47% 0%;
+  padding: 100px 120px;
+  display: flex;
+  gap: 30px;
+}
+.about-value {
+  display: flex;
+  flex-direction: row;
+}
+.about-img {
+  min-width: 590px;
+  height: 375px;
+  background-image: url(../../images/about-bgimg.jpg);
+}
+.about-value {
+  display: flex;
+  flex-direction: column;
+}
+.about-txt {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
